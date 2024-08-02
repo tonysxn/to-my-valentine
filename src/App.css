@@ -1,0 +1,81 @@
+body {
+    background: #000;
+    font-family: 'Nunito', sans-serif;
+}
+
+html, body {margin: 0; height: 100%; overflow: hidden}
+
+#text {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 15px;
+}
+
+h2 {
+    color: #fff;
+    font-size: 25px;
+    line-height: 50px;
+    letter-spacing: 3px;
+}
+
+#container {
+    left: 0;
+    top: -100px;
+    height: calc(100vh + 100px);
+    overflow: hidden;
+    position: relative;
+}
+
+.text-purple {
+    color: #F7B3CD;
+}
+
+.text-blue {
+    color: #b8d3ff;
+}
+
+.text-violet {
+    color: #aa60cc;
+}
+
+#animate {
+    margin: 0 auto;
+    width: 20px;
+    overflow: visible;
+    position: relative;
+}
+
+#all {
+    overflow: hidden;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+}
+
+#footer {
+    color: #808080;
+    text-decoration: none;
+    position: fixed;
+    width: 752px;
+    bottom: 20px;
+    align-content: center;
+    text-align: center;
+    float: none;
+    margin-left: calc(50% - 376px);
+}
+
+a, p {
+    text-decoration: none;
+    color: #808080;
+    letter-spacing: 3px;
+    transition: all 0.5s ease-in-out;
+}
+
+a:hover {
+    color: #fff;
+    letter-spacing: 2px;
+    transition: all 0.5s ease-in-out;
+}

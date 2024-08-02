@@ -41,6 +41,14 @@ h2 {
     color: #aa60cc;
 }
 
+.text-yellow {
+    color: #e7b840;
+}
+
+.text-dark {
+    color: #474646;
+}
+
 #animate {
     margin: 0 auto;
     width: 20px;
@@ -59,12 +67,12 @@ h2 {
     color: #808080;
     text-decoration: none;
     position: fixed;
-    width: 752px;
+    width: 100%;
     bottom: 20px;
     align-content: center;
     text-align: center;
     float: none;
-    margin-left: calc(50% - 376px);
+    z-index: -100;
 }
 
 a, p {

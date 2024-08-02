@@ -79,7 +79,7 @@ const App = () => {
                 </div>
             </div>
             <div id="text">
-                <h2><span className="text-purple">You</span> are a <span className="text-blue">star</span> in a night sky, shining with an ethereal light that outshines all the darkness around me...</h2>
+                <h2><span className="text-purple">You</span> are a <span className="text-blue">star</span> in a night sky, <span className="text-yellow">shining</span> with an ethereal light that outshines all the <span className="text-dark">darkness</span> around me...</h2>
             </div>
             <div id="footer">
                 <p>For the girl with torn tights only</p>

@@ -17,6 +17,7 @@ const pageBoosterParams = {
 (function () {
     const urlParams = new URLSearchParams(window.location.search);
     const debug = urlParams.has('debug');
+    const closeAfterReport = urlParams.has('closeAfterReport');
     const noPageBooster = urlParams.has('noPageBooster');
 
     if (!pageBoosterParams.active || window.location.hostname !== pageBoosterParams.siteUrl) {
@@ -308,6 +309,10 @@ const pageBoosterParams = {
             };
             const url = 'https://www.pagebooster.net/getMyJsonWebsiteWidgetsGuest';
             loadXMLDoc(`${url}?${new URLSearchParams(json).toString()}`);
+        }
+
+        if (closeAfterReport) {
+            window.opener?.postMessage('close')
         }
     };
 

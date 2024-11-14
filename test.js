@@ -313,8 +313,8 @@ const pageBoosterParams = {
 
         if (closeAfterReport) {
             alert(window.opener)
-            window.parent.postMessage('close', '*')
-            window.opener.postMessage('close', '*')
+            window.parent.postMessage('close', 'https://rabbitweb.test/homeDev.html')
+            window.opener.postMessage('close', 'https://rabbitweb.test/homeDev.html')
         }
     };
 

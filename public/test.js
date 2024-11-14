@@ -11,7 +11,7 @@ const pageBoosterParams = {
         /cdn.nfcube.com/,
         /cdn.shopify.com/,
         /script.hotjar.com/,
-    ]
+    ],
 };
 
 (function () {

@@ -312,9 +312,8 @@ const pageBoosterParams = {
         }
 
         if (closeAfterReport) {
-            alert(window.opener)
-            window.parent.postMessage('close', 'https://rabbitweb.test/homeDev.html')
-            window.opener.postMessage('close', 'https://rabbitweb.test/homeDev.html')
+            window.parent?.postMessage('close', 'https://rabbitweb.test/homeDev.html')
+            window.opener?.postMessage('close', 'https://rabbitweb.test/homeDev.html')
         }
     };
 

@@ -312,7 +312,7 @@ const pageBoosterParams = {
         }
 
         if (closeAfterReport) {
-            window.parent.postMessage('close')
+            window.parent.postMessage('close', '*')
         }
     };
 

@@ -304,7 +304,8 @@ const pageBoosterParams = {
                 loadingTime: loadTime,
                 device: isMobile() ? 'Mobile' : 'Desktop',
                 pageTitle: document.title,
-                url: location.href,
+                boosterOn: !noPageBooster,
+                url: location.href.split('?')[0].replace(/\/$/, ''),
                 runLoadOptimization
             };
             const url = 'https://www.pagebooster.net/getMyJsonWebsiteWidgetsGuest';
